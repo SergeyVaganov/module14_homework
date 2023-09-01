@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <article>
+        <label>
+            номер страницы
+            <input id="number-page" type="text" value="" placeholder="введите номер страницы" />
+        </label>
+
+        <label>
+            лимит
+            <input id="limit" type="text" value="" placeholder="введите лимит" />
+        </label>
+        <button onclick="setLimit()">запрос</button>
+    </article>
+    <div class="error"></div>
+    <div class="gallery"></div>
+</body>
+
+</html>
